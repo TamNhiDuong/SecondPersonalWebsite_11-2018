@@ -1,0 +1,146 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding-top: 0px;
+}
+
+
+/*ul {
+	float: right;
+	list-style-type: none;
+top: 0px;}*/
+
+ul li {
+	display: inline-block;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a {
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img {
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.main {
+	max-width: 1200px;
+	position: absolute;
+	top: 0;
+}
+
+.button {
+	position: absolute;
+	top: 47%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+}
+
+.btn {
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+html {
+	background-image: url(../images/background5.jpg);
+}
+
+
+/*container*/
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding-top: 0px;
+}
+
+.Slides {
+	display: none;
+}
+
+.off {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+.wrapper > div {
+	background-color: #b1e1e7;
+	color: #18484e;
+	opacity: 0.7;
+}
+
+.wrapper {
+	display: grid;
+	grid-gap: 15px;
+	grid-auto-rows: minmax(80px, auto);
+	padding-bottom: 30px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.two {
+	grid-column: 1;
+	grid-row: 2/6;
+}
+
+.three {
+	grid-column: 2;
+	grid-row: 2/6;
+}
+
+.four {
+	grid-column: 3;
+	grid-row: 2/6;
+}
+
+.smallBody {
+	width: 1000px;
+	height: 1000px;
+	margin: 0px auto;
+	background-color: #FAF9FA;
+	padding-top: 40px;
+}
+
+
+/*how to make body below navigation bar???*/
+
+body:not(header) {
+	padding-top: 60px;
+}
+
+#nav {
+	top: 0;
+	list-style-type: none;
+	padding-left: 48%;
+	text-align: right;
+	position: absolute;
+}
+
+#smallList li {
+	padding: 10px 5px 5px 5px;
+}
