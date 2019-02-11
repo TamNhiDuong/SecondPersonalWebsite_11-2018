@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	height: 10vh;
+}
+
+html {
+	background-image: url(../images/background4.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
+	height: auto;
+}
+
+ul {
+	float: right;
+	list-style-type: none;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a {
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img {
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.main {
+	max-width: 1200px;
+}
+
+.hello {
+	position: absolute;
+	width: 1200px;
+	margin-left: 900px;
+	margin-top: 60px;
+}
+
+h1 {
+	color: white;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-top: 200px;
+}
+
+.button {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 130%;
+	margin-left: 170px;
+}
+
+.btn {
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+	background-color: #1051ba;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+#date {
+	color: #ffffff;
+	position: absolute;
+	left: 85%;
+	top: 90%;
+}
+
+footer {
+	padding-top: 600px;
+	padding-left: 20px;
+	color: white;
+}

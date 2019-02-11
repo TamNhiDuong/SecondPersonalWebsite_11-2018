@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Nhi's experiences of studying programming</title>
+	<link href="styles/style5.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<meta charset="UTF-8"> </head>
+
+<body>
+	<header>
+		<div class="main">
+			<div class="logo"> <img src="images/signatureWhite.png" alt="logo"> </div>
+		</div>
+		<ul>
+			<li><a href="index0.html">HOME</a></li>
+			<li><a href="index1.html">SKILLS</a></li>
+			<li><a href="index2.html">JAVASCRIPT</a></li>
+			<li><a href="index3.html">FUTURE AIMS</a></li>
+			<li><a href="index4.html">IT JOBS</a></li>
+			<li class="active"><a href="#">CONTACT</a></li>
+		</ul>
+	</header>
+	<div class="container">
+		<form id="myForm" action="/action_page.php" method="post">
+			<label for="fname">Please enter your First Name</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+			<label for="lname">Please enter your Last Name</label>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+			<label for="gender">Please choose your gender</label>
+			<select id="gender" name="gender">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+				<option value="other">Other</option>
+			</select>
+			<label for="age">Please enter your Age</label>
+			<input type="text" id="age" name="age" placeholder="Your age.." required>
+			<label for="email">Please enter your Email address</label>
+			<input type="text" id="email" name="email" placeholder="Your email.." required>
+			<label for="mess">Your messages</label>
+			<textarea id="mess" name="mess" placeholder="Please write something.." style="height:100px"></textarea>
+			<input type="button" onclick="myFunction()" value="Reset">
+			<input type="submit" value="Submit"> </form>
+	</div>
+	<script src="scripts/main5.js"></script>
+	<footer>
+		<p>&copy; Nhi Duong, 2018
+			<br />
+			<a href="http://validator.w3.org/check?uri=referer"> <img style="border:none;height:31px;width:31px;text-decoration:none;" src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/html_logo_grayscale_31.png" alt="Valid HTML" /></a>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer"> <img style="border:none;width:88px;height:31px;text-decoration:none;" src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/css_logo_grayscale_31.png" alt="Valid CSS" /></a>
+			<a href="http://jslint.com/"> <img style="border:0;width:105px;height:31px;text-decoration:none;" src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/jslint_logo_grayscale_31.png" alt="jslint - JS Quality Test Tool" /></a>
+		</p>
+	</footer>
+</body>
+
+</html>

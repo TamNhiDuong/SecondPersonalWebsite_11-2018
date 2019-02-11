@@ -1,0 +1,135 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding-top: 0px;
+}
+
+header {
+	height: 10vh;
+}
+
+ul {
+	float: right;
+	list-style-type: none;
+	top: 0px;
+}
+
+ul li {
+	display: inline-block;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a {
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img {
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.main {
+	max-width: 1200px;
+	position: absolute;
+	top: 0;
+}
+
+.button {
+	position: absolute;
+	top: 47%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+}
+
+.btn {
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+html {
+	background-image: url(../images/background5.jpg);
+}
+
+
+/*style_box*/
+
+input[type=text],
+select,
+textarea {
+	width: 100%;
+	padding: 18px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #1051ba;
+	color: white;
+	padding: 15px 25px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=button] {
+	background-color: #1051ba;
+	color: white;
+	padding: 15px 25px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #1051ba;
+}
+
+input[type=button]:hover {
+	background-color: #1051ba;
+}
+
+.container {
+	height: 600px;
+	color: white;
+	border-radius: 5px;
+	background-image: url(../images/background5.jpg);
+	padding: 0px 50px 60px 50px;
+}
+
+#myForm {
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+footer {
+	padding: 20px 20px 20px 20px;
+	color: white;
+}
